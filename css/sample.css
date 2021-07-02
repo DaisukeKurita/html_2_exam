@@ -1,0 +1,93 @@
+html {
+  position: relative;
+  min-height: 100%;
+  font-size: 62.5%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+  position: relative;
+}
+/* ここから */
+header {
+  height: 50px;
+  background-color: #2B2B2B;
+  font-size: 1.5rem;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+}
+header ul a {
+  color: white;
+  text-decoration: none;
+}
+header li.left {
+  float: left;
+  list-style: none;
+  padding: 15px;
+}
+div.right {
+  float: right;
+}
+header li.right {
+  float: left;
+  list-style: none;
+  padding: 15px;
+}
+header ul:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* ここまでがheader部分の実装 */
+.main-header img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 13%;
+/* main画像（白い「Achieve」の文字の画像）部分の実装 */
+}
+.about h1 {
+  font-size: 1.5rem;
+/* About Achieve部分の実装 */
+}
+.about p {
+  font-size: 0.8rem;
+}
+/* ここから */
+.function {
+  background-color: #D3D3D3;
+  padding-top: 30px;
+}
+.function-images {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+.function-image {
+  padding: 30px;
+}
+/* ここまでがfunction部分の実装 */
+footer {
+  height: 70px;
+  background-color: #283A4B;
+  font-size: 0.8rem;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+/* footer部分の実装 */
+}
+footer p {
+  margin: 0;
+}
